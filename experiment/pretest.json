@@ -2,35 +2,69 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the formula for calculating the probability of having exactly 'n' customers in an M/G/c/N queueing system?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Poisson distribution",
+        "b": "Erlang distribution",
+        "c": "Pollaczek-Khinchine formula",
+        "d": "Steady-state probability equation"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. The Poisson distribution is not used for this calculation in an M/G/c/N queueing system.",
+        "b": "Incorrect. The Erlang distribution is not used for this calculation in an M/G/c/N queueing system.",
+        "c": "Correct. The Pollaczek-Khinchine formula calculates the probability of having 'n' customers in an M/G/c/N queueing system.",
+        "d": "Incorrect. The steady-state probability equation is not used for this calculation in an M/G/c/N queueing system."
+      },
+      "correctAnswer": "c",
+      "difficulty": "moderate"
+    },
+    {
+      "question": "In an M/G/c/N queueing system, how can the Erlang distribution be leveraged to optimize system performance?",
+      "answers": {
+        "a": "By adjusting the shape parameter to minimize service variability",
+        "b": "By increasing the scale parameter to improve server utilization",
+        "c": "By utilizing Erlang B formula to optimize server staffing levels",
+        "d": "By applying Little's Law to reduce waiting times"
+      },
+      "explanations": {
+        "a": "Correct. Adjusting the shape parameter of the Erlang distribution can help minimize service variability, improving system performance in an M/G/c/N queueing model.",
+        "b": "Incorrect. Increasing the scale parameter is not related to leveraging the Erlang distribution in an M/G/c/N queueing system.",
+        "c": "Incorrect. The Erlang B formula is not directly related to optimizing system performance in an M/G/c/N queueing system.",
+        "d": "Incorrect. Little's Law is not directly related to leveraging the Erlang distribution in an M/G/c/N queueing system."
       },
       "correctAnswer": "a",
+      "difficulty": "moderate"
+    },
+    {
+      "question": "In an M/G/c/N queueing system, what does 'N' represent?",
+      "answers": {
+        "a": "Number of servers in the system",
+        "b": "Arrival rate of customers",
+        "c": "Maximum number of customers allowed in the system",
+        "d": "Service rate of the server"
+      },
+      "explanations": {
+        "a": "Incorrect. 'N' does not represent the number of servers in the system.",
+        "b": "Incorrect. 'N' does not represent the arrival rate of customers.",
+        "c": "Correct. 'N' represents the maximum number of customers allowed in the system in an M/G/c/N queueing model.",
+        "d": "Incorrect. 'N' does not represent the service rate of the server."
+      },
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+       "question": "In an M/G/c/N queueing system, how can the system effectively manage congestion during peak hours?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Adding more servers to increase capacity",
+        "b": "Implementing priority queuing for certain customers",
+        "c": "Using predictive analytics to adjust staffing levels based on expected demand",
+        "d": "Utilizing preemptive queue management techniques to handle surges"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Adding more servers may not be feasible during peak hours and does not address the dynamic nature of congestion.",
+        "b": "Incorrect. Priority queuing may help certain customers but does not address overall congestion management.",
+        "c": "Correct. Predictive analytics can forecast demand and adjust staffing to manage congestion effectively in an M/G/c/N queueing system.",
+        "d": "Incorrect. Preemptive queue management techniques may be helpful, but they are not specifically tailored to managing congestion during peak hours."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
