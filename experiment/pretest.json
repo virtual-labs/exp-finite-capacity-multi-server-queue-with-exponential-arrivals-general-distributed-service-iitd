@@ -36,7 +36,7 @@
       "difficulty": "moderate"
     },
     {
-      "question": "In an M/G/c/N queueing system, what does 'N' represent?",
+      "question": "In an M/G/c/7 queueing system, what does '7' represent?",
       "answers": {
         "a": "Number of servers in the system",
         "b": "Arrival rate of customers",
@@ -44,10 +44,10 @@
         "d": "Service rate of the server"
       },
       "explanations": {
-        "a": "Incorrect. 'N' does not represent the number of servers in the system.",
-        "b": "Incorrect. 'N' does not represent the arrival rate of customers.",
-        "c": "Correct. 'N' represents the maximum number of customers allowed in the system in an M/G/c/N queueing model.",
-        "d": "Incorrect. 'N' does not represent the service rate of the server."
+        "a": "Incorrect. '7' does not represent the number of servers in the system.",
+        "b": "Incorrect. '7' does not represent the arrival rate of customers.",
+        "c": "Correct. '7' represents the maximum number of customers allowed in the system in an M/G/c/N queueing model.",
+        "d": "Incorrect. '7' does not represent the service rate of the server."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
