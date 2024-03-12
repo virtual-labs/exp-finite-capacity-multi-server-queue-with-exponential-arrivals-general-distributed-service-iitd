@@ -1,0 +1,73 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What does 'c' represent in the M/G/c/N queueing system?",
+      "answers": {
+        "a": "Arrival rate of customers",
+        "b": "Number of servers in the system",
+        "c": "Maximum number of customers allowed in the system",
+        "d": "Service rate of the server"
+      },
+      "explanations": {
+        "a": "Incorrect. 'c' does not represent the arrival rate of customers.",
+        "b": "Incorrect. 'c' does not represent the number of servers in the system.",
+        "c": "Correct. 'c' represents the maximum number of customers allowed in the system in an M/G/c/N queueing model.",
+        "d": "Incorrect. 'c' does not represent the service rate of the server."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How does the M/G/c/N model differ from the M/M/c/N model?",
+      "answers": {
+        "a": "The service process in M/G/c/N has general distribution, while it's exponential service process in M/M/c/N.",
+        "b": "Both models use the same service distribution.",
+        "c": "M/G/c/N model allows for a finite capacity, while M/M/c/N model has infinite capacity.",
+        "d": "M/G/c/N model has a deterministic arrival pattern, while M/M/c/N model has a random arrival pattern."
+      },
+      "explanations": {
+        "a": "Correct. The M/G/c/N model assumes general distribution for service, while the M/M/c/N model assumes an exponential service process.",
+        "b": "Incorrect. The service distribution may differ between the two models.",
+        "c": "Incorrect. Both models allow for finite capacity, but the nature of the arrival process differs.",
+        "d": "Incorrect. Both models may have random arrival patterns, but the service time distributions differ."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What happens in an M/G/c/N queue when the number of customers exceeds 'N'?",
+      "answers": {
+        "a": "Additional servers are added to handle the overflow.",
+        "b": "Excess customers are served immediately.",
+        "c": "New arrivals are rejected, resulting in system overflow.",
+        "d": "The service rate increases to accommodate the excess customers."
+      },
+      "explanations": {
+        "a": "Incorrect. Additional servers are not typically added in an M/G/c/N queueing system.",
+        "b": "Incorrect. Excess customers are not served immediately in a finite capacity queue.",
+        "c": "Correct. When the number of customers exceeds 'N', new arrivals are rejected, leading to system overflow.",
+        "d": "Incorrect. The service rate does not increase in response to exceeding the system capacity."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How does the utilization factor 'ρ' affect the performance of an M/G/c/N queue?",
+      "answers": {
+        "a": "Higher ρ leads to lower average waiting times.",
+        "b": "Lower ρ leads to higher system stability.",
+        "c": "ρ does not affect the performance of the system.",
+        "d": "Higher ρ leads to higher probabilities of queue overflow."
+      },
+      "explanations": {
+        "a": "Incorrect. Higher utilization factor ('ρ') leads to higher average waiting times.",
+        "b": "Incorrect. Lower utilization factor ('ρ') generally leads to higher system stability.",
+        "c": "Incorrect. Utilization factor ('ρ') significantly affects the performance of the system.",
+        "d": "Correct. Higher utilization factor ('ρ') leads to higher probabilities of queue overflow and poorer system performance."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+  ]
+}
